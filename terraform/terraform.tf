@@ -12,6 +12,8 @@ provider "aws" {
   region = "us-east-2"
 }
 
+# simple change
+
 
 resource "aws_instance" "MyEC2webserver" {
   ami           = "ami-0d3183af565a0a95d"
